@@ -11680,6 +11680,7 @@ nA:function nA(a,b){this.c=a
 this.a=b},
 pP:function pP(a){var _=this
 _.d=0
+_.e=""
 _.a=null
 _.b=a
 _.c=null},
@@ -38197,10 +38198,11 @@ F.nA.prototype={
 aJ:function(){return new F.pP(C.n)}}
 F.pP.prototype={
 DX:function(){this.aE(new F.O0(this))},
-L:function(a,b){var s=null,r=L.Li(this.a.c,s)
-return new M.ol(new E.m4(r,new P.a7(1/0,56),s),T.CY(T.Zs(H.d([L.Li("Contador:",s),L.Li(""+this.d,K.bp(b).M.d)],t.t),C.od),s,s),E.TU(L.U2(C.tZ),!1,this.gDW(),"Incremento"),s)}}
+L:function(a,b){var s=this,r=null,q=L.Li(s.a.c,r)
+return new M.ol(new E.m4(q,new P.a7(1/0,56),r),T.CY(T.Zs(H.d([L.Li("Llega a la edad de Leo para saber una gran verdad; Contador:",r),L.Li(""+s.d+s.e,K.bp(b).M.d)],t.t),C.od),r,r),E.TU(L.U2(C.tZ),!1,s.gDW(),"Incremento"),r)}}
 F.O0.prototype={
-$0:function(){++this.a.d},
+$0:function(){var s=this.a
+if(++s.d===24)s.e=" a\xf1os desde que tu tio te toca"},
 $S:0}
 E.fD.prototype={
 gl:function(a){return this.b},
